@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: ae00d480735abd5499d1a20f2d312ecb
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BoosterCone
+    100002: FuselageBottom
+    100004: FuselageMiddle
+    100006: FuselageTop
+    100008: //RootNode
+    100010: NoseCone
+    100012: TopFinFront
+    100014: TopFinFront_001
+    100016: TopFinFront_002
+    100018: TopFinFront_003
+    100020: TopFinFront_004
+    100022: TopFinLeft
+    100024: TopFinRear
+    100026: TopFinRight
+    400000: BoosterCone
+    400002: FuselageBottom
+    400004: FuselageMiddle
+    400006: FuselageTop
+    400008: //RootNode
+    400010: NoseCone
+    400012: TopFinFront
+    400014: TopFinFront_001
+    400016: TopFinFront_002
+    400018: TopFinFront_003
+    400020: TopFinFront_004
+    400022: TopFinLeft
+    400024: TopFinRear
+    400026: TopFinRight
+    2100000: unnamed
+    2300000: BoosterCone
+    2300002: FuselageBottom
+    2300004: FuselageMiddle
+    2300006: FuselageTop
+    2300008: NoseCone
+    2300010: TopFinFront
+    2300012: TopFinFront_001
+    2300014: TopFinFront_002
+    2300016: TopFinFront_003
+    2300018: TopFinFront_004
+    2300020: TopFinLeft
+    2300022: TopFinRear
+    2300024: TopFinRight
+    3300000: BoosterCone
+    3300002: FuselageBottom
+    3300004: FuselageMiddle
+    3300006: FuselageTop
+    3300008: NoseCone
+    3300010: TopFinFront
+    3300012: TopFinFront_001
+    3300014: TopFinFront_002
+    3300016: TopFinFront_003
+    3300018: TopFinFront_004
+    3300020: TopFinLeft
+    3300022: TopFinRear
+    3300024: TopFinRight
+    4300000: FuselageBottom
+    4300002: FuselageMiddle
+    4300004: FuselageTop
+    4300006: TopFinFront_004
+    4300008: TopFinFront_003
+    4300010: TopFinFront_002
+    4300012: TopFinFront_001
+    4300014: BoosterCone
+    4300016: TopFinFront
+    4300018: TopFinRear
+    4300020: TopFinRight
+    4300022: TopFinLeft
+    4300024: NoseCone
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

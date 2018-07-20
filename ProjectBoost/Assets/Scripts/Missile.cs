@@ -2,32 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rocket : MonoBehaviour
+public class Missile : MonoBehaviour
 {
     Rigidbody rigidBody;
     AudioSource audioSource;
 
     float thrust = 120;
-    float rotationRate = 30;
+    float rotationRate = 45;
 
     float audioStartVolume = 0.0f;
-    float audioFadeRate = 0.5f;
+    float audioFadeRate = 0.55f;
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
         audioStartVolume = audioSource.volume;
     }
-    
+
     // Update is called once per frame
-    void Update ()
+    void Update()
     {
         ProcessInput();
     }
 
-    private void ProcessInput()
+    private void Thrust()
     {
         if (Input.GetKey(KeyCode.Space))
         {
@@ -43,8 +43,13 @@ public class Rocket : MonoBehaviour
         }
         else
         {
-             FadeAudioOut();
+            FadeAudioOut();
         }
+    }
+
+    private void Rotate()
+    {
+        rigidBody.freezeRotation = true; // manual control of rotation
 
         if (Input.GetKey(KeyCode.A))
         {
@@ -54,6 +59,14 @@ public class Rocket : MonoBehaviour
         {
             transform.Rotate(Vector3.forward * Time.deltaTime * -rotationRate);
         }
+
+        rigidBody.freezeRotation = false; // resume physics control of rotation
+    }
+
+    private void ProcessInput()
+    {
+        Thrust();
+        Rotate();
     }
 
     private void FadeAudioOut()
@@ -67,5 +80,4 @@ public class Rocket : MonoBehaviour
             }
         }
     }
-
 }
