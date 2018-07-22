@@ -8,7 +8,7 @@ public class Rocket : MonoBehaviour
     AudioSource audioSource;
 
     float thrust = 120;
-    float rotationRate = 45;
+    [SerializeField] float rotationRate = 50;
 
     float audioStartVolume = 0.0f;
     float audioFadeRate = 0.55f;
@@ -25,6 +25,19 @@ public class Rocket : MonoBehaviour
     void Update ()
     {
         ProcessInput();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "Friendly":
+                print("OK");
+                break;
+            default:
+                print("Dead");
+                break;
+        }
     }
 
     private void Thrust()

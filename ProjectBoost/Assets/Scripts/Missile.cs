@@ -8,7 +8,7 @@ public class Missile : MonoBehaviour
     AudioSource audioSource;
 
     float thrust = 120;
-    float rotationRate = 45;
+    [SerializeField] float rotationRate = 45;
 
     float audioStartVolume = 0.0f;
     float audioFadeRate = 0.55f;
